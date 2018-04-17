@@ -207,6 +207,5 @@ void cudaSoftmax(int n, int channels,  float* x, float*y)
 {
 	kernelSoftmax<<< (n/channels), channels, channels*sizeof(float)>>>( x, channels, y);
 	cudaDeviceSynchronize();
-    
 }
 

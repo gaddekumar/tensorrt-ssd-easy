@@ -12,7 +12,6 @@
 #include "NvInfer.h"
 #include "NvInferPlugin.h"
 #include "NvUtils.h"
-//#include "kernel.cu"
 
 
 #define CHECK(status)                                                                                           \
@@ -25,6 +24,7 @@
             abort();                                                                                                    \
         }                                                                                                                               \
     }
+
 
 using namespace nvinfer1;
 using namespace nvcaffeparser1;
