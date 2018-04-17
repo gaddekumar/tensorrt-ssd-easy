@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="inference"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\tensorRTplugin\;CMake Files\util\;CMake Files\util\cuda\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/fares/Desktop/spring18/inference/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/fares/Desktop/spring18/inference/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/fares/Desktop/spring18/inference/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/fares/Desktop/spring18/inference/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/fares/Desktop/spring18/inference/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/fares/Desktop/spring18/inference/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inference">
+				<Option output="/home/fares/Desktop/spring18/inference/cmake-build-debug/Gadde/bin/inference" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fares/Desktop/spring18/inference/cmake-build-debug/Gadde/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fares/Desktop/spring18/inference/cmake-build-debug/Gadde/include/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/fares/TensorRT/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 inference"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inference/fast">
+				<Option output="/home/fares/Desktop/spring18/inference/cmake-build-debug/Gadde/bin/inference" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fares/Desktop/spring18/inference/cmake-build-debug/Gadde/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fares/Desktop/spring18/inference/cmake-build-debug/Gadde/include/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/fares/TensorRT/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 inference/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/fares/Desktop/spring18/inference/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inferLib">
+				<Option output="/home/fares/Desktop/spring18/inference/cmake-build-debug/Gadde/lib/libinferLib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fares/Desktop/spring18/inference/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fares/Desktop/spring18/inference/cmake-build-debug/Gadde/include/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/fares/TensorRT/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 inferLib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inferLib/fast">
+				<Option output="/home/fares/Desktop/spring18/inference/cmake-build-debug/Gadde/lib/libinferLib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fares/Desktop/spring18/inference/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fares/Desktop/spring18/inference/cmake-build-debug/Gadde/include/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/fares/TensorRT/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 inferLib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fares/Desktop/spring18/inference/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/fares/Desktop/spring18/inference/cmake-build-debug/CMakeFiles/inferLib.dir/tensorRTplugin/inferLib_generated_kernel.cu.o">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/cmake-build-debug/CMakeFiles/inferLib.dir/tensorRTplugin/inferLib_generated_mathFunctions.cu.o">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/cmake-build-debug/CMakeFiles/inferLib.dir/util/cuda/inferLib_generated_cudaNormalize.cu.o">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/cmake-build-debug/CMakeFiles/inferLib.dir/util/cuda/inferLib_generated_cudaOverlay.cu.o">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/cmake-build-debug/CMakeFiles/inferLib.dir/util/cuda/inferLib_generated_cudaRGB.cu.o">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/cmake-build-debug/CMakeFiles/inferLib.dir/util/cuda/inferLib_generated_cudaResize.cu.o">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/cmake-build-debug/CMakeFiles/inferLib.dir/util/cuda/inferLib_generated_cudaYUV-NV12.cu.o">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/cmake-build-debug/CMakeFiles/inferLib.dir/util/cuda/inferLib_generated_cudaYUV-YUYV.cu.o">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/cmake-build-debug/CMakeFiles/inferLib.dir/util/cuda/inferLib_generated_cudaYUV-YV12.cu.o">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/main.cpp">
+			<Option target="inference"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/tensorRTplugin/kernel.cu">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/tensorRTplugin/mathFunctions.cpp">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/tensorRTplugin/mathFunctions.cu">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/tensorRTplugin/mathFunctions.h">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/tensorRTplugin/pluginImplement.cpp">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/tensorRTplugin/pluginImplement.h">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/tensorRTplugin/tensorNet.cpp">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/tensorRTplugin/tensorNet.h">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/util/cuda/cudaNormalize.cu">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/util/cuda/cudaOverlay.cu">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/util/cuda/cudaRGB.cu">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/util/cuda/cudaResize.cu">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/util/cuda/cudaYUV-NV12.cu">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/util/cuda/cudaYUV-YUYV.cu">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/util/cuda/cudaYUV-YV12.cu">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/util/loadImage.cpp">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/util/loadImage.h">
+			<Option target="inferLib"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/tensorRTplugin/common.h">
+			<Option virtualFolder="CMake Files\tensorRTplugin\"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/tensorRTplugin/mathFunctions.h">
+			<Option virtualFolder="CMake Files\tensorRTplugin\"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/tensorRTplugin/pluginImplement.h">
+			<Option virtualFolder="CMake Files\tensorRTplugin\"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/tensorRTplugin/tensorNet.h">
+			<Option virtualFolder="CMake Files\tensorRTplugin\"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/util/loadImage.h">
+			<Option virtualFolder="CMake Files\util\"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/util/cuda/cudaMappedMemory.h">
+			<Option virtualFolder="CMake Files\util\cuda\"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/util/cuda/cudaNormalize.h">
+			<Option virtualFolder="CMake Files\util\cuda\"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/util/cuda/cudaOverlay.h">
+			<Option virtualFolder="CMake Files\util\cuda\"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/util/cuda/cudaRGB.h">
+			<Option virtualFolder="CMake Files\util\cuda\"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/util/cuda/cudaResize.h">
+			<Option virtualFolder="CMake Files\util\cuda\"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/util/cuda/cudaUtility.h">
+			<Option virtualFolder="CMake Files\util\cuda\"/>
+		</Unit>
+		<Unit filename="/home/fares/Desktop/spring18/inference/util/cuda/cudaYUV.h">
+			<Option virtualFolder="CMake Files\util\cuda\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
