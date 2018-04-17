@@ -28,13 +28,13 @@
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="29" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="29" />
+              <caret line="4" column="29" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cudaResize.cu" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cudaResize.cu" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/cuda/cudaResize.cu">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
@@ -50,17 +50,17 @@
         <entry file="file://$PROJECT_DIR$/tensorRTplugin/tensorNet.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="248">
-              <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kernel.cu" pinned="false" current-in-tab="false">
+      <file leaf-file-name="kernel.cu" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tensorRTplugin/kernel.cu">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="147" column="1" lean-forward="true" selection-start-line="147" selection-start-column="1" selection-end-line="147" selection-end-column="1" />
+            <state relative-caret-position="359">
+              <caret line="209" column="4" lean-forward="false" selection-start-line="209" selection-start-column="4" selection-end-line="209" selection-end-column="4" />
               <folding>
                 <element signature="e#55#92#0" expanded="true" />
               </folding>
@@ -138,8 +138,8 @@
         <option value="$PROJECT_DIR$/tensorRTplugin/tensorNet.cpp" />
         <option value="$PROJECT_DIR$/tensorRTplugin/pluginImplement.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/tensorRTplugin/kernel.cu" />
         <option value="$PROJECT_DIR$/util/cuda/cudaResize.cu" />
+        <option value="$PROJECT_DIR$/tensorRTplugin/kernel.cu" />
       </list>
     </option>
   </component>
@@ -258,12 +258,12 @@
       <workItem from="1523539512094" duration="17676000" />
       <workItem from="1523877321174" duration="16786000" />
       <workItem from="1523899352374" duration="90000" />
-      <workItem from="1523899466544" duration="10313000" />
+      <workItem from="1523899466544" duration="10925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159000000" />
+    <option name="totallyTimeSpent" value="159612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-4" width="1863" height="1084" extended-state="6" />
@@ -638,7 +638,7 @@
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="29" />
+          <caret line="4" column="29" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -654,18 +654,8 @@
     <entry file="file://$PROJECT_DIR$/tensorRTplugin/tensorNet.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
-          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorRTplugin/kernel.cu">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="147" column="1" lean-forward="true" selection-start-line="147" selection-start-column="1" selection-end-line="147" selection-end-column="1" />
-          <folding>
-            <element signature="e#55#92#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -675,6 +665,16 @@
           <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding>
             <element signature="e#74#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorRTplugin/kernel.cu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="209" column="4" lean-forward="false" selection-start-line="209" selection-start-column="4" selection-end-line="209" selection-end-column="4" />
+          <folding>
+            <element signature="e#55#92#0" expanded="true" />
           </folding>
         </state>
       </provider>
